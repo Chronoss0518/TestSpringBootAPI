@@ -1,13 +1,13 @@
-package springboot.server_test;
+package com.test.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServerTestApplication {
+public class TestApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerTestApplication.class, args);
+		SpringApplication.run(TestApiApplication.class, args);
 	}
 
 }
